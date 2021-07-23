@@ -7,6 +7,8 @@ edition = "2018"
 path = "lib.rs"
 
 [dependencies]
+firework-common = {path = "../firework-common"}
+
 async-std = "1.9.0"
 bytes = "*"
 num-traits = "0.2.14"

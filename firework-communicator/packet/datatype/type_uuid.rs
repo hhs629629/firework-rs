@@ -5,6 +5,6 @@ pub type Uuid = uuid::Uuid;
 
 impl DataTypeExt for Uuid {
     fn write(&self, w: &mut PacketWriter) {
-        todo!()
+        w.write(&self.as_u128().to_be_bytes());
     }
 }

@@ -1,5 +1,6 @@
 [workspace]
 
 members = [
+    "firework-common",
     "firework-communicator",
 ]

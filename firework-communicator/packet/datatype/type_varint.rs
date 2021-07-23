@@ -1,10 +1,10 @@
 use crate::packet::datatype::DataTypeExt;
 use crate::packet::PacketWriter;
 
-enum VarInt {
+pub enum VarInt {
     I8(i8),
     I16(i16),
-    I32(i32)
+    I32(i32),
 }
 
 impl From<i8> for VarInt {
