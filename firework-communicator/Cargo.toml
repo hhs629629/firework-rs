@@ -1,0 +1,13 @@
+[package]
+name = "firework-communicator"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+async-std = "1.9.0"
+bytes = "*"
+num-traits = "0.2.14"
+uuid = "*"
